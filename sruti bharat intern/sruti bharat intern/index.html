@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registeration Form</title>
+</head>
+<style>
+    *{
+        margin: 0%;
+        padding: 0px;
+    }
+
+    body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        padding: 10px;
+        font-family: 'Poppins', sans-serif;
+        background-color: black;
+    }
+
+    .container{
+        width: 800px;
+        background: #fff;
+        padding: 25px 40px 10px 40px;
+    }
+
+    form{
+        padding-right: 30px;
+        padding-left: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    form h2{
+        text-align: center;
+        padding: 4px;
+        text-transform: uppercase;
+    }
+
+    form p{
+        text-align: center;
+        padding: 4px;
+    }
+
+    form .la1{
+        margin-left: 20px;
+        text-transform: uppercase;
+    }
+
+    form input{
+        width: 100%;
+        height: 40px;
+        margin: 10px 20px;
+        border: none;
+        border-bottom: 1px black solid;
+    }
+  
+    form button{
+        background-color: black;
+        color: white;
+        margin-top: 20px;
+        margin-right: 25%;
+        margin-left: 25%;
+        padding: 15px;
+        cursor: pointer;
+        text-transform: uppercase;
+    }
+
+</style>
+<body>
+    <div class="container">
+        <form method="post" action="/register">
+            <h2>Registration Form</h2>
+            <b><label class="la1" for="">Username</label></b>
+            <input type="text" name="name" required>
+            <b><label class="la1" for="">email</label></b>
+            <input type="email" name="email" required>
+            <b><label class="la1" for="">Password</label></b>
+            <input type="password" name="password" required>
+            <button type="submit">Submit</button>
+            <p>Bharat intern Sruti</p>
+        </form>     
+    </div>
+</body>
+</html>
