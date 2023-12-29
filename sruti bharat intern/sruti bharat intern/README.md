@@ -1,10 +1,5 @@
-# Bharat-Intern-Task-1(Registration Form)
-
+Bharat-Intern-Task
+(Registration Form)
 Languages :
-
-node js , express , html , css 
-
-
-Backend connectivity with : Mongogodb(Atlas)
-
+node js , express , html , css
 Full stack Website 
